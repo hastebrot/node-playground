@@ -1,0 +1,13 @@
+{
+  "name": "node-playground",
+  "version": "0.1.0",
+  "main": "dist/index.js",
+  "license": "MIT",
+  "private": true,
+  "devDependencies": {
+    "esbuild": "^0.5.3"
+  },
+  "scripts": {
+    "build": "esbuild --bundle index.ts --outdir=dist/ --minify --sourcemap"
+  }
+}

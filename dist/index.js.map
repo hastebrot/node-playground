@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["index.ts"],
+  "sourcesContent": ["export const sayHello = (): void => {\n    console.log(\"hello\")\n}"],
+  "mappings": "+LAAA,kCAAO,KAAM,GAAW,KACpB,QAAQ,IAAI",
+  "names": []
+}
